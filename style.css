@@ -1,0 +1,54 @@
+.image-preview {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.image-preview img {
+    
+    border-top : 30px solid #85ceed;
+    border-bottom : 30px solid lightgreen;
+    border-left : 30px solid #ffefd5;
+    border-right : 30px solid #ffb5c1;
+}
+ 
+#header {
+    text-align: center;
+    margin: 20px;
+}
+
+ .myclass1, .myclass2, .myclass3, .myclass4 {
+    font-weight: bold;
+}
+
+.myclass1 { color: pink; }
+.myclass2 { color: pink; }
+.myclass3 { color: orange; }
+.myclass4 { color: red; }
+
+.myclass1:hover { color: blue; }
+.myclass2:hover { color: lightpink; }
+.myclass3:hover { color: darkorange; }
+.myclass4:hover { color: darkred; }
+
+p {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+th {
+    background-color: lightgray;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td:hover {
+    background-color: lightblue;
+}
